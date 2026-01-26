@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	background-size: cover;
+	background-position: center;
+    background-image: url("background_musa.png");
+    overflow: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+header .logo{
+    position: relative;
+    max-width: 130px
+}
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+header .navegation  li{
+    list-style: none;
+}
+header .navegation li a{
+    display: inline-block;
+    color: #b70269; 
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 80px;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	
+}
+.content .text{
+    position: relative;
+    max-width: 600px;
+    margin-right: 10px;
+	
+}
+.content .text h2{
+    color:#b70269; 
+    font-size: 2.9em;
+    margin-bottom: 8px;
+    line-height: 1.5em;
+    font-weight: 700;
+}
+
+.content .text p{
+    color:#b70269; 
+}
+.content .text a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: #e51e2a;
+    color:#b70269; 
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+.content .text a:hover{
+    transform: translateY(-10px);
+}
+
+.boxImg{
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+}
+.boxImg img{
+    width: 560px;
+}
+.boxImg .perfil_musa{
+    transform: rotate(0 deg);
+	transform: translateX(-4%);
+}
