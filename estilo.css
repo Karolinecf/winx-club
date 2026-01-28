@@ -107,13 +107,4 @@ header .navegation li a{
     transform: rotate(0 deg);
 
 }
-@media (max-width: 768px){
-    .content{
-        flex-direction: column;
-    }
 
-    .boxImg img{
-        width: 100%;
-        max-width: 300px;
-    }
-}
