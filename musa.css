@@ -73,18 +73,7 @@ header .navegation li a{
 .content .text p{
     color:#b70269; 
 }
-.content .text a{
-    display: inline-block;
-    margin-top: 50px;
-    padding: 10px 25px;
-    background: #e51e2a;
-    color:#b70269; 
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    border-radius: 40px;
-    transition: 0.3s ease-in-out;
-}
+
 .content .text a:hover{
     transform: translateY(-10px);
 }
@@ -100,4 +89,5 @@ header .navegation li a{
 .boxImg .perfil_musa{
     transform: rotate(0 deg);
 	transform: translateX(-4%);
+
 }
