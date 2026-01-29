@@ -58,8 +58,8 @@ header .navegation li a{
 }
 .content .text{
     position: relative;
-    max-width: 600px;
-    margin-right: 10px;
+    max-width: 670px;
+    margin-right: 8px;
 	
 }
 .content .text h2{
@@ -102,4 +102,5 @@ header .navegation li a{
 	transform: translateX(-4%);
 
 }
+
 
