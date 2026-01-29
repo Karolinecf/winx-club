@@ -64,7 +64,7 @@ header .navegation li a{
 }
 .content .text h2{
     color:#7a3fa1; 
-    font-size: 2.9em;
+	font-size: 2.5em;
     margin-bottom: 8px;
     line-height: 1.5em;
     font-weight: 700;
@@ -95,9 +95,10 @@ header .navegation li a{
     bottom: 50px;
 }
 .boxImg img{
-    width: 560px;
+    width: 450px;
 }
 .boxImg .perfil_tecna{
     transform: rotate(0 deg);
 	transform: translateX(-4%);
+
 }
