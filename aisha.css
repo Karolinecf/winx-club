@@ -95,9 +95,10 @@ header .navegation li a{
     bottom: 50px;
 }
 .boxImg img{
-    width: 560px;
+    width: 500px;
 }
 .boxImg .perfil_aisha{
     transform: rotate(0 deg);
 	transform: translateX(-4%);
+
 }
