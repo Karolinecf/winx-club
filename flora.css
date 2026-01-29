@@ -96,11 +96,12 @@ header .navegation li a{
     bottom: 50px;
 }
 .boxImg img{
-    width: 560px;
+    width: 450px;
 }
 .boxImg .perfil_flora{
     transform: rotate(0 deg);
 	transform: translateX(-4%);
 
 }
+
 
